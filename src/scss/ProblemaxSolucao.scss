@@ -1,0 +1,44 @@
+.problema-solucao {
+  padding: 0 10px; /* Margens laterais */
+  
+  .section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    h3 {
+      margin-bottom: 20px;
+      font-size: 40px;
+      color: #248000;
+    }
+    .problem-section, .solution-section {
+      .problem-box, .solution-box {
+    
+        margin-bottom: 20px; /* Adiciona espaço vertical entre as caixas */
+        margin-right: 15px; /* Adiciona espaço horizontal entre as caixas */
+      }
+    }
+      .problem-box,
+      .solution-box {
+        background-color: #ffff;
+        border: 2px solid #000000;
+        border-radius: 30px;
+        padding: 20px;
+        max-width: 250px;
+        
+
+        h2 {
+          font-size: 25px;
+          color: #248000;
+          margin-bottom: 8px;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 1.2;
+          color: #000000;
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,47 @@
+/* Estilos para a página de contextualização */
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+#titulocontext {
+  font-size: 40px;
+  color: #248000;
+  margin-bottom: 30px;
+}
+
+.gridcontext {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .contextCima,
+  .contextBaixo {
+    margin-bottom: 40px;
+
+    .imgscontext {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .texto {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+
+      .imagensBaixo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          margin: 0 10px;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}

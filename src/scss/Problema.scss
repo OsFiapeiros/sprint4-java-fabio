@@ -1,0 +1,44 @@
+.problema {
+    h2 {
+      text-align: center;
+      color: #248000;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+  
+    .gridproblem {
+      display: flex;
+      justify-content: center;
+  
+      .conteudo {
+        display: flex;
+        width: 80%;
+  
+        .texto {
+          flex: 1;
+          padding: 20px;
+  
+          p {
+            font-size: 20px;
+            color: #000000;
+            line-height: 1.5;
+            margin-bottom: 15px;
+          }
+        }
+  
+        .imagem {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+  
+          img {
+            max-height: 700px; /* Defina a altura máxima desejada */
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+  

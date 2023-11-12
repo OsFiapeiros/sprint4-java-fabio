@@ -1,0 +1,44 @@
+@import "bootstrap/scss/bootstrap";
+
+
+ 
+$theme-colors: (
+  "secondary":  $gray-400,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Poppins';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+}
+
+p{
+    font-size: 'Poppins';
+    font-size: 16px;
+}
